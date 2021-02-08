@@ -56,7 +56,7 @@ public class Calculator {
         Scanner keyboard9 = new Scanner(System.in);
         int powerNumber9 = keyboard9.nextInt();
 
-        System.out.println("now, we will square that number by a new number.");
+        System.out.println("now, we will square your latest number.");
         Scanner keyboard10 = new Scanner(System.in);
         int powerNumber10 = 2;
 
