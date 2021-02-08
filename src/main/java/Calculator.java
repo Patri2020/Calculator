@@ -58,9 +58,9 @@ public class Calculator {
 
         System.out.println("now, we will square that number by a new number.");
         Scanner keyboard10 = new Scanner(System.in);
-        int powerNumber10 = keyboard10.nextInt();
+        int powerNumber10 = 2;
 
-        int basenumber = powerNumber9, exponent = powerNumber10;
+        int baseNumber = powerNumber9, exponent = powerNumber10;
         double pow = Math.pow(powerNumber9, powerNumber10);
 
         System.out.println("Okay now, "+powerNumber9+" to the power of "+powerNumber10+" equals "+pow);
